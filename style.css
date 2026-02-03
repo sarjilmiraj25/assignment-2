@@ -12,7 +12,7 @@ body{
 nav {
   
 
-width: 1600px;
+
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -73,4 +73,309 @@ button:hover{
   width: 15px;
   height: 10px;
 
+}
+/* banner section */
+/* .hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./B13-A02-TechWave/assets/hero-bg.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+ 
+
+
+/* WAVES */
+/* .wave {
+  position: absolute;
+  top: 50%;
+  width: 300px;
+  height: 120px;
+  border-radius: 50%;
+  opacity: 0.6;
+  transform: translateY(-50%);
+} */
+/* 
+.wave-left {
+  left: 5%;
+  border: 2px solid #ff4ecd;
+} */
+/* 
+.wave-right {
+  right: 5%;
+  border: 2px solid #00ffcc;
+} */
+
+/* CENTER */
+/* .center-content {
+  text-align: center;
+  color: #ffffff;
+  width: 550px;
+  height: 558px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40;
+} */
+/* 
+MIC AREA
+.mic-wrapper {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto ;
+} */
+/* 
+.circle {
+  width: 100%;
+  height: 100%;
+} */
+/* 
+.mic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  transform: translate(-50%, -50%);
+} */
+
+/* NEW BADGE */
+/* .badge {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  background: #00ff6a;
+  color: #000;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+} */
+
+/* TEXT
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+} */
+/* 
+p {
+  font-size: 16px;
+  opacity: 0.85;
+  margin-bottom: 25px;
+} */
+
+/* BUTTONS */
+/* .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+} */
+/* 
+.btn {
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease;
+} */
+/*
+
+.spotify {
+  background: #ffb347;
+  color: #000;
+}
+
+.subscribe {
+  background: #1ed760;
+  color: #000;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+} */ 
+
+/* banner section */
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #1A0B2E;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+ 
+}
+
+
+/* =========================
+   WAVES (DECORATION)
+========================= */
+
+
+
+
+/* =========================
+   CENTER CONTENT
+========================= */
+.center-content {
+  text-align: center;
+  color: #fff;
+  /* width: 200px;
+  height: 200px; */
+}
+
+
+/* =========================
+   MIC + CIRCLE
+========================= */
+.mic-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto ;
+  margin-bottom: 40px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.mic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  
+}
+
+
+/* =========================
+   BADGE
+========================= */
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
+  background: #00ff88;
+  color: #1a0b2e;
+
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+h1 {
+  font-size: 64px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
+ opacity: 50%;
+  margin-bottom: 24px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  
+}
+
+.btn {
+  padding: 12px 22px;
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Button Variants */
+.spotify {
+  background: linear-gradient(90deg, #CCCCCC, #FB09B4, #9100F8);
+  color: #ffffff;
+}
+
+.subscribe {
+  padding: 12px 20px;
+  color: #00ff88;
+  border-color: #CCCCCC;
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgba(130, 87, 87, 0.128);
+  cursor: pointer;
+}
+/* about-podcast */
+.about-podcast{
+  max-width: 1600px;
+  background-color: #1A0B2E;
+  margin: 0 auto;
+  padding:50px 200px ;
+  gap: 50px;
+}
+.about-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-content h3{
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.about-content p{
+  font-size: 16px;
+  font-weight: 200px;
+
+  color: #ffffff;
+  opacity: 60%;
+  text-align: center;
+}
+.about-num{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+padding: 80px 0 0 0;
+}
+.about-num h2{
+  font-weight: 900;
+  font-size: 48px;      
+  color: #00ff88;
+  gap: 80px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.about-num p{
+  font-size: 12px;
+  font-weight:400 ;
+  color: #ffffff;
+  opacity: 50%;
+  gap: 80px;
+  text-align: center;
 }
