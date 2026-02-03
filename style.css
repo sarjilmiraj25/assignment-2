@@ -32,8 +32,7 @@ background-color:rgb(48, 38, 60);
   color: #ffffff;
 }
 .logo .wave{
-  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
--webkit-background-clip: text;
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);background-clip: text;
   color: transparent;
 }
 
@@ -74,133 +73,13 @@ button:hover{
   height: 10px;
 
 }
-/* banner section */
-/* .hero {
-  height: 100vh;
-  width: 100%;
-  background-image: url("./B13-A02-TechWave/assets/hero-bg.png");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* position: relative; */
- 
 
-
-/* WAVES */
-/* .wave {
-  position: absolute;
-  top: 50%;
-  width: 300px;
-  height: 120px;
-  border-radius: 50%;
-  opacity: 0.6;
-  transform: translateY(-50%);
-} */
-/* 
-.wave-left {
-  left: 5%;
-  border: 2px solid #ff4ecd;
-} */
-/* 
-.wave-right {
-  right: 5%;
-  border: 2px solid #00ffcc;
-} */
-
-/* CENTER */
-/* .center-content {
-  text-align: center;
-  color: #ffffff;
-  width: 550px;
-  height: 558px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40;
-} */
-/* 
-MIC AREA
-.mic-wrapper {
-  position: relative;
-  width: 180px;
-  height: 180px;
-  margin: 0 auto ;
-} */
-/* 
-.circle {
-  width: 100%;
-  height: 100%;
-} */
-/* 
-.mic {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 70px;
-  transform: translate(-50%, -50%);
-} */
-
-/* NEW BADGE */
-/* .badge {
-  position: absolute;
-  top: 10px;
-  right: -10px;
-  background: #00ff6a;
-  color: #000;
-  font-size: 12px;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-weight: 600;
-} */
-
-/* TEXT
-h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-} */
-/* 
-p {
-  font-size: 16px;
-  opacity: 0.85;
-  margin-bottom: 25px;
-} */
-
-/* BUTTONS */
-/* .buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-} */
-/* 
-.btn {
-  padding: 12px 22px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  transition: 0.3s ease;
-} */
-/*
-
-.spotify {
-  background: #ffb347;
-  color: #000;
-}
-
-.subscribe {
-  background: #1ed760;
-  color: #000;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-} */ 
 
 /* banner section */
 .hero {
   height: 100vh;
   width: 100%;
   background-color: #1A0B2E;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,28 +88,12 @@ p {
  
 }
 
-
-/* =========================
-   WAVES (DECORATION)
-========================= */
-
-
-
-
-/* =========================
-   CENTER CONTENT
-========================= */
 .center-content {
   text-align: center;
   color: #fff;
-  /* width: 200px;
-  height: 200px; */
+  
 }
 
-
-/* =========================
-   MIC + CIRCLE
-========================= */
 .mic-wrapper {
   position: relative;
   width: 350px;
@@ -254,10 +117,6 @@ p {
   
 }
 
-
-/* =========================
-   BADGE
-========================= */
 .badge {
   position: absolute;
   top: 20px;
@@ -272,10 +131,6 @@ p {
   border-radius: 20px;
 }
 
-
-/* =========================
-   TEXT
-========================= */
 h1 {
   font-size: 64px;
   margin-bottom: 8px;
@@ -286,11 +141,6 @@ p {
  opacity: 50%;
   margin-bottom: 24px;
 }
-
-
-/* =========================
-   BUTTONS
-========================= */
 .buttons {
   display: flex;
   justify-content: center;
@@ -313,7 +163,6 @@ p {
   transform: translateY(-3px);
 }
 
-/* Button Variants */
 .spotify {
   background: linear-gradient(90deg, #CCCCCC, #FB09B4, #9100F8);
   color: #ffffff;
