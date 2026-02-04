@@ -228,3 +228,126 @@ padding: 80px 0 0 0;
   gap: 80px;
   text-align: center;
 }
+/* why choose techwave section */
+/* body {
+  background: radial-gradient(circle at top, #2d0b59, #140022);
+  color: #ffffff;
+} */
+
+  
+/* ===== Section ===== */
+.why-techwave {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 120px 200px;
+  background-color:#230E3D ;
+}
+
+.why-techwave h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+
+}
+
+/* ===== Grid (Desktop First) ===== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* ===== Card ===== */
+.card {
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 20px;
+  padding: 35px 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  
+}
+
+/* Big & Wide cards */
+.card.large {
+  grid-row: span 2;
+}
+
+.card.wide {
+  grid-column: span 2;
+}
+
+/* Hover */
+/* .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+} */
+
+/* ===== Icon ===== */
+.icon {
+  width: 60px;
+  height: 63px;
+  /* object-fit: contain; */
+  margin-bottom: 16px;
+  padding-top: 30px;
+  padding-left: 30px;
+
+  /* background: linear-gradient(135deg, #ff2fd4, #7b2cff);
+  box-shadow: 0 0 15px rgba(255, 47, 212, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* Icon hover */
+/* .card:hover .icon {
+  transform: scale(1.15) rotate(6deg);
+  box-shadow: 0 0 25px rgba(255, 47, 212, 1);
+} */
+
+/* ===== Text ===== */
+.card h2 {
+ font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: auto;
+  margin-bottom: 16px;
+  
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 65%;
+  margin-bottom: 40px;
+}
+
+/* ===== Mobile Responsive ===== */
+/* @media (max-width: 768px) {
+  .why-techwave {
+    padding: 50px 16px;
+  }
+
+  .why-techwave h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  } */
+
+  /* .card.large,
+  .card.wide {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .card {
+    padding: 28px 22px;
+  }
+
+  .icon {
+    width: 42px;
+    height: 42px;
+  }
+} */
