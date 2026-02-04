@@ -6,13 +6,10 @@
 }
 body{
     max-width: 1600px;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-
 nav {
-  
-
-
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -23,7 +20,9 @@ border-bottom: 1px solid rgba(65, 37, 103, 1);
 background-color:rgb(48, 38, 60);
  
 }
-
+.hamburgur{
+  display: none;
+}
 .nav-logo {
   
   font-weight: bold;
@@ -32,7 +31,8 @@ background-color:rgb(48, 38, 60);
   color: #ffffff;
 }
 .logo .wave{
-  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);background-clip: text;
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  background-clip: text;
   color: transparent;
 }
 
@@ -90,7 +90,7 @@ button:hover{
 
 .center-content {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   
 }
 
@@ -228,14 +228,7 @@ padding: 80px 0 0 0;
   gap: 80px;
   text-align: center;
 }
-/* why choose techwave section */
-/* body {
-  background: radial-gradient(circle at top, #2d0b59, #140022);
-  color: #ffffff;
-} */
 
-  
-/* ===== Section ===== */
 .why-techwave {
   max-width: 1600px;
   margin: 0 auto;
@@ -252,14 +245,12 @@ padding: 80px 0 0 0;
 
 }
 
-/* ===== Grid (Desktop First) ===== */
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-
-/* ===== Card ===== */
 .card {
   background: rgba(53, 17, 101, 0.4);
   border-radius: 20px;
@@ -267,8 +258,6 @@ padding: 80px 0 0 0;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 
 }
-
-/* Big & Wide cards */
 .card.large {
   grid-row: span 2;
 }
@@ -277,33 +266,14 @@ padding: 80px 0 0 0;
   grid-column: span 2;
 }
 
-/* Hover */
-/* .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
-} */
-
-/* ===== Icon ===== */
 .icon {
   width: 60px;
   height: 63px;
-  /* object-fit: contain; */
   margin-bottom: 16px;
   padding-top: 30px;
   padding-left: 30px;
-
-  /* background: linear-gradient(135deg, #ff2fd4, #7b2cff);
-  box-shadow: 0 0 15px rgba(255, 47, 212, 0.7);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; */
 }
 
-/* Icon hover */
-/* .card:hover .icon {
-  transform: scale(1.15) rotate(6deg);
-  box-shadow: 0 0 25px rgba(255, 47, 212, 1);
-} */
-
-/* ===== Text ===== */
 .card h2 {
  font-size: 24px;
   font-weight: bold;
@@ -320,37 +290,6 @@ padding: 80px 0 0 0;
   opacity: 65%;
   margin-bottom: 40px;
 }
-
-/* ===== Mobile Responsive ===== */
-/* @media (max-width: 768px) {
-  .why-techwave {
-    padding: 50px 16px;
-  }
-
-  .why-techwave h1 {
-    font-size: 28px;
-    margin-bottom: 40px;
-  }
-
-  .card-grid {
-    grid-template-columns: 1fr;
-  } */
-
-  /* .card.large,
-  .card.wide {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .card {
-    padding: 28px 22px;
-  }
-
-  .icon {
-    width: 42px;
-    height: 42px;
-  }
-} */
 
 /* featured */
 .featured {
@@ -377,30 +316,15 @@ padding: 80px 0 0 0;
 .card {
   background-color: #250D44 ;
   border-radius: 20px;
-  /* overflow: hidden; */
+  
 }
 
-.video-wrap {
-  position: relative;
-  /* aspect-ratio: 16 / 9; */
-  /* background: #111; */
-}
 
 .video-wrap iframe {
   width: 100%;
   height: 100%;
   border: none;
 }
-/* 
-.play-btn {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-} */
-
 
 .content {
   padding: 24px;
@@ -431,17 +355,7 @@ padding: 80px 0 0 0;
   width: 16px;
   height: 16px;
 }
-/* 
-@media (max-width: 480px) {
-  .featured h2 {
-    font-size: 24px;
-  }
-
-  .play-btn img {
-    width: 52px;
-    height: 52px;
-  } */
-/* meet the host section */
+  
 /* Section */
 .host-section {
    max-width: 1600px;
@@ -462,8 +376,8 @@ padding-bottom: 120px;
 /* Card */
 .host-card {
   max-width: 1200px;
+   background-color: #250D44;
   margin: auto;
-  /* background: linear-gradient(135deg, #2b0a3d, #120018); */
   border-radius: 24px;
   padding: 40px;
   display: flex;
@@ -475,7 +389,7 @@ padding-bottom: 120px;
 .host-image img {
   width: 200px;
   height: 200px;
-  /* object-fit: cover; */
+  
   border-radius: 50%;
 }
 
@@ -509,7 +423,7 @@ padding-bottom: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* transition: 0.3s; */
+  
 }
 
 .social-icons a:hover {
@@ -521,34 +435,10 @@ padding-bottom: 120px;
   height: 16px;
 }
 
-/* 📱 Mobile Responsive */
-/* @media (max-width: 768px) {
-  .host-card {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 20px;
-  }
-
-  .host-image img {
-    width: 180px;
-    height: 180px;
-  }
-
-  .host-content h2 {
-    font-size: 24px;
-  } */
-
-  /* .section-title {
-    font-size: 28px;
-  }
-
-  .social-icons {
-    justify-content: center;
-  } */
+  
 /* footer section */
 .banner {
   max-width: 1600px;
-  /* max-height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -601,14 +491,172 @@ padding-bottom: 120px;
   align-items: center;
   color: #FFFFFF;
   opacity: 0.8 ;
-}
-/* 📱 Mobile Responsive */
-/* @media (max-width: 768px) {
-  .content h1 {
-    font-size: 42px;
+ }
+
+
+/* Responsive for Mobile */
+@media screen and (max-width: 776px) {
+
+  body {
+    max-width: 100%;
   }
 
-  .socials img {
-    width: 28px;
+  /* ===== NAVBAR ===== */
+  nav {
+    padding: 16px;
   }
-} */
+
+.hamburgur{
+  display: block;
+}
+  .nav-menu {
+    display: none;
+  }
+
+  nav button {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  /* hero */
+  .hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #1A0B2E;
+  background-image: url("./B13-A02-TechWave/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+  .mic-wrapper {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 24px;
+  }
+
+  .mic {
+    width: 70px;
+  }
+
+  .badge {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* about podcast*/
+  .about-podcast {
+    padding: 60px 16px;
+  }
+
+  .about-content h3 {
+    font-size: 32px;
+  }
+
+  .about-num {
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 40px;
+  }
+
+  .about-num h2 {
+    font-size: 32px;
+  }
+
+  /*choose techwave*/
+  .why-techwave {
+    padding: 60px 16px;
+  }
+
+  .why-techwave h1 {
+    font-size: 32px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card.large,
+  .card.wide {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  /* featured*/
+  .featured {
+    padding: 60px 16px;
+  }
+
+  .featured h2 {
+    font-size: 32px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .video-wrap iframe {
+    height: 200px;
+  }
+
+  /*host the meet*/
+  .host-section {
+    padding: 0 16px 80px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .host-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .host-image img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  /*footer */
+  .banner {
+    padding: 60px 16px;
+  }
+
+  .f-content h1 {
+    font-size: 36px;
+  }
+
+  .socials {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
